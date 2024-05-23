@@ -19,7 +19,11 @@ function App() {
     buttonWrapper.style.backgroundColor = "gray";
     pWrapper.style.backgroundColor = "white";
   pWrapper.style.left = "0px";
-  button.style.left = "-8px";
+  if(window.innerWidth >= 550){
+    button.style.left = "-8px";
+  }else{
+    button.style.left = "-11.3px";
+  }
   }
   }
 

@@ -282,9 +282,11 @@
     height: 50px;
     border-radius: 50%;
     position: relative;
-    right: 50%;
+    left: -11.3px;
+
     transition: 0.5s;
     cursor: pointer;
+    top: -0.3px;
     z-index: 99;
     background-color: white;
   }
@@ -314,7 +316,7 @@
     height: 60px;
     font-size: 23px;
     position: relative;
-
+    top: -30px;
     cursor: pointer;
     color: rgb(130, 129, 129);
     border-radius: 8px;
